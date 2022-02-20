@@ -27,18 +27,26 @@
  /*******
  Main
  *******/
+
 #site_main {
     width: 1000px;
     margin: 2rem auto;
 }
 
+/* products section */
+
 .products {
-    margin: 0 180px;
+    margin: 0 190px;
 }
+
+/* card product */
 
 .card_product {
     display: inline-block;
+    margin-right:3px;
 }
+
+/* top cardproduct */
 
 .top_cardproduct {
     height: 295px;
@@ -103,6 +111,9 @@ img {
     vertical-align: sub;
 }
 
+/* /top cardproduct */
+
+/* bottom cardproduct */
 
 .informations {
     height: 40px;
@@ -128,6 +139,15 @@ img {
     font-size: 8px;
     text-decoration: line-through;
 }
+
+/* /bottom cardproduct */
+
+
+/* /card product */
+
+
+/* /products section */
+
  /*******
  Footer
  *******/
