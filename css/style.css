@@ -13,6 +13,7 @@
      height: 150px;
      line-height: 150px;
      border: 2px dashed crimson;
+     text-align: center;
  }
 
  #site_header > h1 {
@@ -20,7 +21,7 @@
      text-decoration: underline;
      font-size: 50px;
      font-family: monospace;
-     text-align: center;
+     
  }
 
  /*******
@@ -28,7 +29,7 @@
  *******/
 #site_main {
     width: 1000px;
-    margin: 1rem auto;
+    margin: 2rem auto;
 }
 
 .products {
@@ -130,3 +131,19 @@ img {
  /*******
  Footer
  *******/
+
+ #site_footer {
+    background-color: antiquewhite;
+    height: 50px;
+    line-height: 50px;
+    border: 2px dashed crimson;
+    text-align: center;
+}
+
+#site_footer > p {
+    display: inline-block;
+    color: crimson;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: monospace;
+}
