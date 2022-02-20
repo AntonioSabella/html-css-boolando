@@ -26,7 +26,107 @@
  /*******
  Main
  *******/
+#site_main {
+    width: 1000px;
+    margin: 1rem auto;
+}
 
+.products {
+    margin: 0 180px;
+}
+
+.card_product {
+    display: inline-block;
+}
+
+.top_cardproduct {
+    height: 295px;
+    width: 200px;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.top_cardproduct img:last-child {
+    visibility: hidden;
+    position: absolute;
+}
+
+.top_cardproduct:hover img:first-child {
+    visibility: hidden;
+    position: absolute;
+}
+
+.top_cardproduct:hover img:last-child {
+    visibility: visible;
+}
+
+.heart {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    background-color: white;
+    
+}
+
+.badges {
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0;
+}
+
+.discount {
+    background-color: red;
+    padding: 3px;
+    color: white;
+    font-size: 8px;
+    font-weight: 900;
+    vertical-align: sub;
+}
+
+.tag {
+    background-color: green;
+    padding: 3px;
+    color: white;
+    font-size: 8px;
+    font-weight: 900;
+    vertical-align: sub;
+}
+
+
+.informations {
+    height: 40px;
+    width: 200px;
+}
+
+.brand{
+    font-size: 10px;
+}
+
+.description {
+    font-size: 10px; 
+  
+}
+
+.discounted_price {
+    color: red;
+    font-size: 8px;
+}
+
+.original_price {
+    color: black;
+    font-size: 8px;
+    text-decoration: line-through;
+}
  /*******
  Footer
  *******/
